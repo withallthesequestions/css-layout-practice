@@ -1,0 +1,19 @@
+* {
+  outline: 1px dotted black;
+}
+
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: 10% 50% 10% 10% 10% 10%;
+  grid-template-rows: 100%;
+}
+
+.logo {
+  grid-column-start: 1;
+}
