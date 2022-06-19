@@ -1,0 +1,71 @@
+/* * {
+  outline: 1px dotted black;
+} */
+
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  height: 40px;
+  width: 100%;
+  background-color: aquamarine;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+  /*   padding: 10px; */
+  background-color: palevioletred;
+}
+
+.navBar a {
+  padding: 12px;
+  margin: 0px;
+  background-color: palevioletred;
+  outline: 1px black solid;
+}
+
+.content {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sideBar {
+  background-color: orange;
+  width: 100px;
+  height: calc(100vh - 40px);
+}
+
+.sideBar .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: solid black 1px;
+}
+
+.gallery {
+  background-color: purple;
+  width: calc(100% - 100px);
+  height: calc(100vh - 40px);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bigBox {
+  margin: 5%;
+  width: 40%;
+  height: 40%;
+  background-color: palevioletred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
